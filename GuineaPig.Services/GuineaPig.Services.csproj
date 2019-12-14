@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GuineaPig.DataAccess\GuineaPig.DataAccess.csproj" />
+    <ProjectReference Include="..\GuineaPig.Domain\GuineaPig.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,7 +1,7 @@
-﻿using GuineaPig.WebUI.Models;
+﻿using System.Diagnostics;
+using GuineaPig.WebUI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using System.Diagnostics;
 
 namespace GuineaPig.WebUI.Controllers
 {

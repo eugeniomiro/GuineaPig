@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace GuineaPig.WebUI.Data.Migrations
+namespace GuineaPig.DataAccess.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

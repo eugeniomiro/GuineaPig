@@ -3,13 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuineaPig.WebUI", "GuineaPig.WebUI\GuineaPig.WebUI.csproj", "{295B5610-F414-43C5-BF0D-0ACE36219D31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuineaPig.WebUI", "GuineaPig.WebUI\GuineaPig.WebUI.csproj", "{295B5610-F414-43C5-BF0D-0ACE36219D31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuineaPig.Domain", "GuineaPig.Domain\GuineaPig.Domain.csproj", "{7A690DAE-45F2-4627-A2E8-430B2CDF02BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuineaPig.Domain", "GuineaPig.Domain\GuineaPig.Domain.csproj", "{7A690DAE-45F2-4627-A2E8-430B2CDF02BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuineaPig.DataAccess", "GuineaPig.DataAccess\GuineaPig.DataAccess.csproj", "{979A0D47-6208-4368-AC40-9C1AF08548A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuineaPig.DataAccess", "GuineaPig.DataAccess\GuineaPig.DataAccess.csproj", "{979A0D47-6208-4368-AC40-9C1AF08548A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuineaPig.Services", "GuineaPig.Services\GuineaPig.Services.csproj", "{5AE96D6B-1549-4873-9889-9E56F01EEDD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuineaPig.Services", "GuineaPig.Services\GuineaPig.Services.csproj", "{5AE96D6B-1549-4873-9889-9E56F01EEDD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{93D8B343-0A71-49DA-BCEA-431407E3903B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuineaPig.Tests", "GuineaPig.Tests\GuineaPig.Tests.csproj", "{5442FF37-A42C-4417-A2C4-5BBF95D678FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +40,10 @@ Global
 		{5AE96D6B-1549-4873-9889-9E56F01EEDD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AE96D6B-1549-4873-9889-9E56F01EEDD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AE96D6B-1549-4873-9889-9E56F01EEDD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5442FF37-A42C-4417-A2C4-5BBF95D678FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5442FF37-A42C-4417-A2C4-5BBF95D678FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5442FF37-A42C-4417-A2C4-5BBF95D678FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5442FF37-A42C-4417-A2C4-5BBF95D678FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

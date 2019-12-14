@@ -1,5 +1,3 @@
-using System;
-
 namespace GuineaPig.WebUI.Models
 {
     public class ErrorViewModel

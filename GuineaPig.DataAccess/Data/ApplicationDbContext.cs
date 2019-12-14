@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace GuineaPig.WebUI.Data
+namespace GuineaPig.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

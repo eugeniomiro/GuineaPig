@@ -6,6 +6,8 @@
 [*]
 indent_style = space
 # Code files
+[*.js]
+indent_size = 2
 [*.{cs,csx,vb,vbx}]
 indent_size = 4
 insert_final_newline = true
